@@ -15,3 +15,4 @@
 
 # folders and files to exclude from ignore
 !/misc/*.*
+!/src/*.pptx
