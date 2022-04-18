@@ -1,0 +1,17 @@
+#folders and files to ignore
+/Box Sync
+/cav2/cd31/*.ndpi
+/cav2/mvt/*.ndpi
+/cav2/qpath_project_cd31/data
+/cav2/qpath_project_movat/data
+/datacd31/json/cav/*.json
+/datacd31/json/cav2/*.json
+**/archived
+**/*.zip
+**/*.ppt
+**/*.pptx
+**/*.png
+**/*.csv
+
+# folders and files to exclude from ignore
+!/misc/*.*

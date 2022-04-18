@@ -1,0 +1,1 @@
+CAV2-DC-23_thumb is removed from downstream processing because its very badly stained. 

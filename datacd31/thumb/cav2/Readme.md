@@ -1,0 +1,1 @@
+Qupath groovy scripts will produce tumbnails for each of the wsi files in this folder. There are 116 wsi, however one WSI is badly stained and move to hidden folder that way its excluded from down stream processing. 

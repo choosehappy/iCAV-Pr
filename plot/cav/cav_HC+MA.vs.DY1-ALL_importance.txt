@@ -1,0 +1,8 @@
+feature
+black
+nuc_outside_div_tis_area
+dab_area_div_tot_nuc_count
+sbin3area_div_count
+qbin1area_div_count
+sbin3area_div_dab_area
+white_myocar
