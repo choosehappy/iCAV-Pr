@@ -12,6 +12,8 @@
 **/*.pptx
 **/*.png
 **/*.csv
+.vscode
+cav.code-workspace
 
 # folders and files to exclude from ignore
 !/misc/*.*
