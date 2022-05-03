@@ -1,7 +1,7 @@
 
 
 # iCAV-Pr Project
-This project has the code necessary to extract biomarker data from CD31 and Movat stained whole slide images:
+This project has the procedure, code necessary to extract biomarker data from CD31 and Movat stained whole slide images. The results and findings based on this is published as part of a research. 
 **Published in Research Article:**
 
 > [Computational Analysis of Routine Biopsies Improves Diagnosis and Prediction of Cardiac Allograft Vasculopathy](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058459) 
