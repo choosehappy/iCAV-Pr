@@ -1,3 +1,19 @@
+
+# **Source Code Authors :**   
+# > *Abigail Swamidoss (Abigail.Swamidoss@gmail.com), Samhith Kethireddy (Kethireddy.samhith@gmail.com)*  
+
+# **Published in Research Article:**  
+# > [Computational Analysis of Routine Biopsies Improves Diagnosis and Prediction of Cardiac Allograft Vasculopathy](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058459)  
+# > *by Eliot G. Peyster, Andrew Janowczyk, Abigail Swamidoss, Samhith Kethireddy, Michael D. Feldman and Kenneth B. Margulies*  
+# *Originally published 11 Apr 2022*  
+#  
+# > [Supplementary Material](https://www.ahajournals.org/action/downloadSupplement?doi=10.1161%2FCIRCULATIONAHA.121.058459&file=10.1161.circulationaha.121.058459_supplemental_materials.pdf)  
+#
+# **Publisher**
+# [Journal of American Heart Association (JAHA) - Circulation](https://www.ahajournals.org/journal/circ)
+
+
+
 # ---
 # jupyter:
 #   jupytext:
