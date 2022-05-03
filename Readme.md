@@ -9,8 +9,7 @@ This project has the code necessary to extract biomarker data from CD31 and Mova
 >>  [Supplementary Material](https://www.ahajournals.org/action/downloadSupplement?doi=10.1161%2FCIRCULATIONAHA.121.058459&file=10.1161.circulationaha.121.058459_supplemental_materials.pdf)  
 >
 >   *by Eliot G. Peyster, Andrew Janowczyk, Abigail Swamidoss, Samhith Kethireddy, Michael D. Feldman and Kenneth B. Margulies*
-
-*Originally published 11 Apr 2022*
+> *Originally published 11 Apr 2022*
 
 **Publisher :** [Journal of American Heart Association (JAHA) - Circulation](https://www.ahajournals.org/journal/circ)
 
