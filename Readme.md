@@ -1,8 +1,19 @@
 
 
 # iCAV-Pr Project
-This project has the code necessary to extract biomarker data from CD31 and Movat stained whole slide images. This is the supplemental method mentioned in this research article. 
-https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058459
+This project has the code necessary to extract biomarker data from CD31 and Movat stained whole slide images:
+**Published in Research Article:**
+
+> [Computational Analysis of Routine Biopsies Improves Diagnosis and Prediction of Cardiac Allograft Vasculopathy](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058459) 
+>
+>>  [Supplementary Material](https://www.ahajournals.org/action/downloadSupplement?doi=10.1161%2FCIRCULATIONAHA.121.058459&file=10.1161.circulationaha.121.058459_supplemental_materials.pdf)  
+>
+>   *by Eliot G. Peyster, Andrew Janowczyk, Abigail Swamidoss, Samhith Kethireddy, Michael D. Feldman and Kenneth B. Margulies*
+
+*Originally published 11 Apr 2022*
+
+**Publisher :** [Journal of American Heart Association (JAHA) - Circulation](https://www.ahajournals.org/journal/circ)
+
 
 ## _CD31 Workflow_
 
@@ -94,6 +105,7 @@ CD31 and Movats data was merged using Pandas based on corresponding filenames. F
 ![Tab_s5](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s5.png)
 
 
-### References:
-1.	Loupy, A., et al., Identification and Characterization of Trajectories of Cardiac Allograft Vasculopathy After Heart Transplantation. Circulation, 2020. 141(24): p. 1954-1967.
-2.	Janowczyk, A., A. Basavanhally, and A. Madabhushi, Stain Normalization using Sparse AutoEncoders (StaNoSA): Application to digital pathology. Computerized Medical Imaging and Graphics, 2017. 57: p. 50-61.
+> ### References:
+> 1.	Loupy, A., et al., Identification and Characterization of Trajectories of Cardiac Allograft Vasculopathy After Heart
+> Transplantation. Circulation, 2020. 141(24): p. 1954-1967.
+> 2.	Janowczyk, A., A. Basavanhally, and A. Madabhushi, Stain Normalization using Sparse AutoEncoders (StaNoSA): Application to digital pathology. Computerized Medical Imaging and Graphics, 2017.57: p. 50-61.
