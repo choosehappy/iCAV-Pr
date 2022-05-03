@@ -93,28 +93,6 @@ After morphology functions were applied, Python’s NumPY was used to calculate 
 CD31 and Movats data was merged using Pandas based on corresponding filenames. From these, Supplemental Table S.5 lists the features extracted. 
 ![Tab_s5](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s5.png)
 
-### Supplemental Results:
-***Assessing Established Predictive Clinical Risk Factors for CAV:***
-The starting point for ClinCAV-Pr Model development and optimization was not a traditional ‘empty’ (containing no variables) or ‘full’ (containing all variables) model.  Instead, we chose to start with predictive risk factors recently established in a large, multicenter observational study on CAV trajectories1.  These risk factors – donor age, donor sex, donor cigarette use, recipient LDL cholesterol at 1-year post transplant, presence of +DSA at 1-year, and history of cellular rejection at 1-year – were used to develop and test as model as described in the statistical methods section (and in an identical fashion to other study models).  As shown in Supplemental Figure S.3, model performance was overall fairly poor, with an AUROC of 0.63 and an accuracy of 62%.  This poor performance justified the additional feature selection steps employed to develop the final ClinCAV-Pr in this experiment, which utilizes several of these previously established risk factors, but which also adds additional risk factors related to histology/rejection history and donor and recipient medical history. 
-![Fig_s3](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Fig_s3.png)
-
-***HistoCAV-Pr Model Performance by ISHLT Grade:***
-Recognizing that there was a baseline imbalance between No-CAV and PrE-CAV groups in the proportion of EMBs with 0R vs. 1R rejection grades (no-CAV: 57.8% 1R grade, while PrE-CAV 76% 1R grade), we explored whether model predictions were strongly associated with underlying ISHLT grade.  Supplemental Table S.6 shows that misclassifications by the HistoCAV-Pr Model were overall fairly balanced between grades, with a 13.3% (8/60) misclassification rate for 0R EMBs, and a 16.7% misclassification rate for 1R EMBs (p=0.59).  Looking more closely, no ISHLT grade does not significantly impact misclassification rates within or between the No-CAV and PrE-CAV groups.  This suggests that model performance is not significantly affected by underlying ISHLT grade, and that misclassified cases are unlikely to be the result of the underlying ISHLT grade.
-![Tab_s6](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s6.png)
-
-
-PrE-CAV = pre-early cardiac allograft vasculopathy (CAV) patients, defined as patients experiencing overt CAV by 5-years post-transplant but without overt diagnosis at 1-year post-transplant.  No-CAV = patients without overt CAV at 6-years post-transplant. ISHLT = international society for heart and lung transplantation
-
-***Morphologic Model Performance by Slide Scanner Manufacturer:***
-While slide scanners are commonplace in pathology departments across the world, there are several different companies manufacturing these devices.  Different manufacturers utilize different methods to create digital images, with differences in hardware (charge-coupled device chips vs. lighting bulbs) and software approaches (stitching vs. compression) potentially affecting final image appearance2.  Prior literature has shown that these differences can potentially impact downstream image analysis pipeline performance.  Therefore, we deliberately incorporated digitized slides from two different slide scanner devices in our study to permit an assessment of the resilience of the image analysis pipeline and subsequent models to variations in slide scanner technology.  Digital images arising from each scanner were combined into a single cohort prior to randomization to training/test sets.  As shown in Supplemental Table S.7, the overall classification performance (combining training and test set results) of both the HistoCAV-Dx and HistoCAV-Pr Models were unaffected by slide scanner manufacturer.  Note that because training and test sets are combined for this analysis, the overall AUROC and accuracy are designed to reflect only overall differences in performance between slide scanners, and not overall validated model performance (as presented in the primary Results). 
-![Tab_s7](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s7.png)
-
-![Tab_s8](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s8.png)
-
-![Tab_s9](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s9.png)
-
-![Tab_s10](https://github.com/abbyswamidoss/iCav-Pr/blob/master/misc/Tab_s10.png)
-
 ### References:
 1.	Loupy, A., et al., Identification and Characterization of Trajectories of Cardiac Allograft Vasculopathy After Heart Transplantation. Circulation, 2020. 141(24): p. 1954-1967.
 2.	Janowczyk, A., A. Basavanhally, and A. Madabhushi, Stain Normalization using Sparse AutoEncoders (StaNoSA): Application to digital pathology. Computerized Medical Imaging and Graphics, 2017. 57: p. 50-61.
