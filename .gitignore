@@ -12,6 +12,7 @@
 **/*.pptx
 **/*.png
 **/*.csv
+**/*.pdf
 .vscode
 cav.code-workspace
 
