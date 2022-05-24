@@ -3,7 +3,8 @@ The root of the cav project is under
 
 > C:\research\cav>
 
-so, the examples you may see is based on this.
+Any examples you may see are based on this.
+
 ## 1 Movat Workflow
 ### Preprocessing
 
@@ -48,17 +49,11 @@ The step informs the segmentation step to add extra brightness to overstained ti
 - It then creates a combined datasheet grouped by cohort and filename with Movats column data (including areas of masked regions) and CD31 data (including areas of nuclei, DAB regions, and various binning data).
 - It also includes additional computed columns where areas of different masked regions within the Movats data are summed.
 - This combined datasheet is then saved under .\datacd31\output\cav2\ as either '31cd31_mvt_dilated.csv' or '31cd31_mvt_undilated.csv' depending on whether dilated or not dilated data was used.
+- For this project, we used dilated data.
 #### 32_cav_add_computed_cols.ipynb
-- This code then uses '31cd31_mvt_dilated.csv' and '31cd31_mvt_undilated.csv' and adds additional computed columns based on the features/data already obtained and saves this under '32_final_dilated.csv' and '32_final_undilated.csv'.
+- This code then uses '31cd31_mvt_dilated.csv' and adds additional computed columns based on the features/data already obtained and saves this under '32_final_dilated.csv'.
 ## 4 LASSO ROC Curve
 #### 40_cav_lasso_roc.ipynb
-- When executed, this code uses  '32_final_dilated.csv' and '32_final_undilated.csv' as well as an additional clinical datasheet similar to these to perform a LASSO Regression in order to determine which features or columns are most predictive of outcome.
+- When executed, this code uses  '32_final_dilated.csv' and an additional clinical datasheet similar to this to perform a LASSO Regression in order to determine which features or columns are most predictive of outcome.
 - It then returns an ROC curve for these features.
 
-
-    py .\src\10_mvt_extract_tiles_from_wsi_openslide.py --bgremoved -l 0 -p 2000 C:/research/cav/cav2/mvt/CAV2-DC-*.ndpi -o .\datamvt\tiles\cav2\DC\code
-
-
-fsd
-    py .\src\10_mvt_extract_tiles_from_wsi_openslide.py --bgremoved -l 0 -p 2000 C:/research/cav/cav2/mvt/CAV2-DC-*.ndpi -o .\datamvt\tiles\cav2\DC\code
-fdsf
