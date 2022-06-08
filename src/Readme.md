@@ -52,8 +52,9 @@ The step informs the segmentation step to add extra brightness to overstained ti
 - For this project, we used dilated data.
 #### 32_cav_add_computed_cols.ipynb
 - This code then uses '31cd31_mvt_dilated.csv' and adds additional computed columns based on the features/data already obtained and saves this under '32_final_dilated.csv'.
-## 4 LASSO ROC Curve
+## 4 LASSO ROC & CAV Density Curves
 #### 40_cav_lasso_roc.ipynb
 - When executed, this code uses  '32_final_dilated.csv' and an additional clinical datasheet similar to this to perform a LASSO Regression in order to determine which features or columns are most predictive of outcome.
 - It then returns an ROC curve for these features.
-
+#### 41_make_CAV_density_figures.py
+- When executed, this code loads the 21cd31_dab.csv and generates the CAV density curves
